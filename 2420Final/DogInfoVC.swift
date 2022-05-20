@@ -9,9 +9,9 @@ import Foundation
 import UIKit
 
 
-class TitleVC: UIViewController {
+class DogInfoVC: UIViewController {
     
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet var titleLabel: UILabel!
     
     var model: Dog? {
         didSet {

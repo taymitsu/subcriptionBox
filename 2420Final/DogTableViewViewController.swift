@@ -18,7 +18,7 @@ let tableView =  UITableView()
 ]
 
 class DogTableViewViewController: UIViewController {
-    
+
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -48,3 +48,4 @@ extension DogTableViewViewController: UITableViewDataSource, UITableViewDelegate
         return cell
     }
 }
+

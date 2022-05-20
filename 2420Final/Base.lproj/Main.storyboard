@@ -28,7 +28,7 @@
         <!--DogTableViewViewController-->
         <scene sceneID="Xvo-e4-GRW">
             <objects>
-                <viewController title="DogTableViewViewController" id="bY1-SR-vvV" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="DogTableViewViewController" id="bY1-SR-vvV" customClass="DogTableViewViewController" customModule="_420Final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CRU-LZ-pvL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,9 +42,11 @@
                         <viewLayoutGuide key="safeArea" id="QOE-Se-uem"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Back" id="iXf-3i-wOp"/>
+                    <navigationItem key="navigationItem" title="Back" leftItemsSupplementBackButton="YES" id="iXf-3i-wOp">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="wta-j4-lOD"/>
+                    </navigationItem>
                     <connections>
-                        <outlet property="tableView" destination="CRU-LZ-pvL" id="21A-9w-s83"/>
+                        <outlet property="tableView" destination="dn1-zM-KVE" id="kFo-HF-mma"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="URF-zB-gf9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -118,7 +120,7 @@
         <!--DogInfoVC-->
         <scene sceneID="oDy-Sf-sSu">
             <objects>
-                <viewController storyboardIdentifier="TitleVC" title="DogInfoVC" id="e12-7U-U19" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DogInfoVC" title="DogInfoVC" id="e12-7U-U19" customClass="DogInfoVC" customModule="_420Final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1to-n7-Qy4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -149,7 +151,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="titleLabel" destination="pWF-5H-dh2" id="5YI-sy-Mg8"/>
+                        <outlet property="titleLabel" destination="1to-n7-Qy4" id="UmX-EL-hqM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oXy-XT-9Tk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
