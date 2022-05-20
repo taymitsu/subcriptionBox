@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		7A9F3C252836E15C00DFB169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3C242836E15C00DFB169 /* AppDelegate.swift */; };
 		7A9F3C272836E15C00DFB169 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3C262836E15C00DFB169 /* SceneDelegate.swift */; };
-		7A9F3C292836E15C00DFB169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3C282836E15C00DFB169 /* ViewController.swift */; };
+		7A9F3C292836E15C00DFB169 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3C282836E15C00DFB169 /* TabBarController.swift */; };
 		7A9F3C2C2836E15C00DFB169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9F3C2A2836E15C00DFB169 /* Main.storyboard */; };
 		7A9F3C2E2836E15D00DFB169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9F3C2D2836E15D00DFB169 /* Assets.xcassets */; };
 		7A9F3C312836E15D00DFB169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9F3C2F2836E15D00DFB169 /* LaunchScreen.storyboard */; };
 		7A9F3C3C2836E15D00DFB169 /* _420FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3C3B2836E15D00DFB169 /* _420FinalTests.swift */; };
 		7A9F3C462836E15D00DFB169 /* _420FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3C452836E15D00DFB169 /* _420FinalUITests.swift */; };
 		7A9F3C482836E15D00DFB169 /* _420FinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3C472836E15D00DFB169 /* _420FinalUITestsLaunchTests.swift */; };
+		7A9F3C552836F53700DFB169 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3C542836F53700DFB169 /* HomeViewController.swift */; };
+		7A9F3C57283809F200DFB169 /* DogTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3C56283809F200DFB169 /* DogTableViewViewController.swift */; };
+		7A9F3C5B28380B3700DFB169 /* DogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3C5A28380B3700DFB169 /* DogCell.swift */; };
+		7A9F3C5F2838314000DFB169 /* DogInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3C5E2838314000DFB169 /* DogInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		7A9F3C212836E15C00DFB169 /* 2420Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2420Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9F3C242836E15C00DFB169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A9F3C262836E15C00DFB169 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A9F3C282836E15C00DFB169 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A9F3C282836E15C00DFB169 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		7A9F3C2B2836E15C00DFB169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A9F3C2D2836E15D00DFB169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A9F3C302836E15D00DFB169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		7A9F3C412836E15D00DFB169 /* 2420FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2420FinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9F3C452836E15D00DFB169 /* _420FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _420FinalUITests.swift; sourceTree = "<group>"; };
 		7A9F3C472836E15D00DFB169 /* _420FinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _420FinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A9F3C542836F53700DFB169 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7A9F3C56283809F200DFB169 /* DogTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTableViewViewController.swift; sourceTree = "<group>"; };
+		7A9F3C5A28380B3700DFB169 /* DogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
+		7A9F3C5E2838314000DFB169 /* DogInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +109,13 @@
 			children = (
 				7A9F3C242836E15C00DFB169 /* AppDelegate.swift */,
 				7A9F3C262836E15C00DFB169 /* SceneDelegate.swift */,
-				7A9F3C282836E15C00DFB169 /* ViewController.swift */,
+				7A9F3C282836E15C00DFB169 /* TabBarController.swift */,
 				7A9F3C2A2836E15C00DFB169 /* Main.storyboard */,
+				7A9F3C56283809F200DFB169 /* DogTableViewViewController.swift */,
+				7A9F3C5E2838314000DFB169 /* DogInfoVC.swift */,
+				7A9F3C542836F53700DFB169 /* HomeViewController.swift */,
 				7A9F3C2D2836E15D00DFB169 /* Assets.xcassets */,
+				7A9F3C5A28380B3700DFB169 /* DogCell.swift */,
 				7A9F3C2F2836E15D00DFB169 /* LaunchScreen.storyboard */,
 				7A9F3C322836E15D00DFB169 /* Info.plist */,
 			);
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A9F3C292836E15C00DFB169 /* ViewController.swift in Sources */,
+				7A9F3C292836E15C00DFB169 /* TabBarController.swift in Sources */,
 				7A9F3C252836E15C00DFB169 /* AppDelegate.swift in Sources */,
+				7A9F3C5B28380B3700DFB169 /* DogCell.swift in Sources */,
+				7A9F3C57283809F200DFB169 /* DogTableViewViewController.swift in Sources */,
 				7A9F3C272836E15C00DFB169 /* SceneDelegate.swift in Sources */,
+				7A9F3C5F2838314000DFB169 /* DogInfoVC.swift in Sources */,
+				7A9F3C552836F53700DFB169 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
